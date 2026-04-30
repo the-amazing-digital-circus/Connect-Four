@@ -5,7 +5,7 @@
 #
 
 import random
-from connect_four import * # to use the connect_four and process_move functions
+from player import Player
 
 class AIPlayer(Player):
     """ Subclass for an intelligent AI player that uses look ahead algorithms
@@ -13,7 +13,7 @@ class AIPlayer(Player):
     Player superclass
     """
     
-    def __init__(self, checker, tiebreak, lookahead):
+    def __init__(self, checker, tiebreak = 'RANDOM', lookahead = 2):
         """ Constructor for the AI player, with options for modifying how far
         the player looks ahead, and what to pick in case there are equally
         good options

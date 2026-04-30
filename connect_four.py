@@ -6,7 +6,8 @@
 
 from board import Board
 from player import Player
-import random
+from random_player import RandomPlayer
+from ai_player import AIPlayer
     
 def connect_four(player1, player2):
     """ Plays a game of Connect Four between the two specified players,

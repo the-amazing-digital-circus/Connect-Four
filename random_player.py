@@ -5,7 +5,7 @@
 #
 
 import random
-from connect_four import * # to use the connect_four and process_move functions
+from player import Player
 
 class RandomPlayer(Player):
     """ Subclass inheriting from the Player class that represents an automated
