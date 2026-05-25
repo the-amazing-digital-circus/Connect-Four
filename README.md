@@ -1,6 +1,8 @@
 # Connect-Four
 A project that can play Connect Four directly in your terminal. You can play with another person (as long as they're next to you, not online), against yourself, or with AI players with varying difficulty.
 
+<img width="500" alt="060a5973-3d7a-4f43-9d1e-81977966e577-snapshot" src="https://github.com/user-attachments/assets/883a6046-fd81-4163-8860-3a659d947e06" />
+
 ## Overview
 This project demonstrates textbook object-oriented-programming, using classes to represent important components of the game; playing boards and player types.
 
