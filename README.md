@@ -27,7 +27,7 @@ In your terminal:
 ```bash
 git clone https://github.com/lifelinh/Connect-Four.git
 ```
-Alternatively, you can download the repository files under the releases.
+Alternatively, you can download the repository files from the [releases](https://github.com/the-amazing-digital-circus/Connect-Four/releases/tag/release).
 
 Next, start the program using IPython in terminal after navigating to the directory that contains the repository files.
 ```bash
